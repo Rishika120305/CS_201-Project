@@ -1,6 +1,14 @@
+TEAM MEMBERS:
+G Varsha(2022csb1082)
+T Rishika(2022csb1138)
 
+MENTOR NAME:
+Law Kumar
+
+PROJECT NAME:
 Analysis and Implementation of van Emde Boas Trees for our course CS201: Data Structures and Algorithms
 
+SUMMARY:
 During this project, we worked with the data structure van Emde Boas (vEB) Trees. We chose to implement the JOSAA admission procedure with sample data.
 
 vEB Tree: vEB Tree is a priority queue. Compared to other priority queues, it is much more optimised (in terms of time) for large amounts of data. Size of universe is static O(u). Any dynamic set operation can be carried out in O(lg lg u) time.
