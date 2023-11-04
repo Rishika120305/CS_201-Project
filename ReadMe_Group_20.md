@@ -21,8 +21,9 @@ Sample Data Template:https://docs.google.com/spreadsheets/d/1PFpn4fOAKLz-8C4oNVR
 
 Data Instructions:Using the template given above, create your own .csv file containing student & college data.
 
-The number of students (n) must be a power of 2.
-The roll numbers of students ranges from 1 to n-1.
+1.The number of students (n) must be a power of 2.
+
+2.The roll numbers of students ranges from 1 to n-1.
 Do not delete or edit the data of the sample student.
 Marks and Roll Numbers do not have to be in order.
 College codes do not have to be in order.
