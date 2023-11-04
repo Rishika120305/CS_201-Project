@@ -253,15 +253,15 @@ int stringtoint(char s[])
     return answer;
 }
 // 12. Print student data
-void printer_student(student_data* person, struct college_data C[])
+void printer_student(FILE* outputfile,student_data* person, struct college_data C[])
 {
-  printf("Student Name: %s\n", person->name);
-  printf("Student Roll No.: %d\n", person->roll_number);
-  printf("College Allotted: ");
+  fprintf(outputfile,"Student Name: %s\n", person->name);
+  fprintf(outputfile,"Student Roll No.: %d\n", person->roll_number);
+  fprintf(outputfile,"College Allotted: ");
   if (person->college_allotted != -1) {
-    printf("%s\n", C[person->college_allotted].name);
+    fprintf(outputfile,"%s\n", C[person->college_allotted].name);
   } else {
-    printf("None.\n");
+    printf(outputfile,"None.\n");
   }
   return;
 }
@@ -414,10 +414,11 @@ int main() {
         college_allotter(human, colleges);
         previous_roll=next_roll;
         next_roll=veb_tree_successor(Score[i], previous_roll);
-        printer_student(human, colleges);
+        printer_student(outputfile,human, colleges);
       }
       previous_roll=0;
     }
+  fclose(outputfile);
     // output the allotted colleges.
     printf("Successful execution!\n");
     return 0;
