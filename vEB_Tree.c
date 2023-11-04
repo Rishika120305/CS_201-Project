@@ -261,7 +261,7 @@ void printer_student(FILE* outputfile,student_data* person, struct college_data 
   if (person->college_allotted != -1) {
     fprintf(outputfile,"%s\n", C[person->college_allotted].name);
   } else {
-    printf(outputfile,"None.\n");
+    fprintf(outputfile,"None.\n");
   }
   return;
 }
