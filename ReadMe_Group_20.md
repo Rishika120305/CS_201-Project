@@ -17,7 +17,7 @@ Data: The sample data we used to test our implementation was random data we gene
 
 JOSAA: Stands for Joint Seat Allocation Authority. After students give the competitive examinations, their names, roll numbers and marks are stored. They are then asked to give their preferences of college/streams. Based on marks (rank), they are allocated a seat in their highest preferred college/stream- with the constraint of number of seats available in the college/stream. In the case where students have the same marks, the student with the lower roll number is assigned a better rank.
 
-Sample Data Template:[Sample_Data_Template.csv](https://github.com/Rishika120305/CS_201-Project/files/13256700/Sample_Data_Template.csv)
+Sample Data Template:https://docs.google.com/spreadsheets/d/1PFpn4fOAKLz-8C4oNVRqgQ91lFRoPV3Ul066XUGt9uw/edit#gid=0
 
 Data Instructions:Using the template given above, create your own .csv file containing student & college data.
 
