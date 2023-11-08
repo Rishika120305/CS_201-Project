@@ -2,7 +2,7 @@
 This is a project based on Van-Emde Boas Trees for my course CS201: Data Structures and Algorithms
 TEAM MEMBERS: G Varsha(2022csb1082), T Rishika(2022csb1138)
 
-MENTOR NAME: Law Kumar
+MENTOR NAME: Manpreet Kaur
 
 PROJECT NAME: Analysis and Implementation of van Emde Boas Trees for our course CS201: Data Structures and Algorithms
 
