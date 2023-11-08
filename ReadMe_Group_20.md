@@ -3,7 +3,7 @@ G Varsha(2022csb1082),
 T Rishika(2022csb1138)
 
 MENTOR NAME:
-Law Kumar
+Manpreet Kaur
 
 PROJECT NAME:
 Analysis and Implementation of van Emde Boas Trees for our course CS201: Data Structures and Algorithms
